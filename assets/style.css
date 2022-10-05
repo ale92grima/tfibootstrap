@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+.img_portada{
+
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: absolute;
+    filter: brightness(0.5);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+
+
+}
+
+.conf {
+
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    margin-top: 0;
+    padding-top: 300px;
+    padding-right: 175px;
+    padding-left: 400px;
+}
+
+.texto h4 {
+    font-weight: normal;
+}
+
+.btn_principal{
+ 
+    text-align: right;
+    padding-right: 175px;
+}
+.container_oradores{
+    margin-top: 200px;
+    align-items: center;
+    padding-left: 230px;
+    width: 80%;
+
+}
+.btn-sm {
+    font-weight: 700;
+     font-size: 12px;
+     padding: 2px;
+     padding-top: 1px;
+     padding-bottom: 1px;   
+     } 
+.container_form_orador{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+footer{
+    margin-top: 100px;  
+    background: linear-gradient(#1B3745,#1D5271);
+    padding: 1em 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  
+}
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+              
+ }
