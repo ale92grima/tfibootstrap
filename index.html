@@ -36,10 +36,17 @@
           </nav>
     </header>
     <main>
-   
-        <div class="container-fluid">
-            <img src="imagenes/ba1.jpg" class="img_portada">   
-            <div class="conf ">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/ba1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="conf ">
                 <h1><a id="confciudad">Conf Bs As</a></h1>
                 <div class="texto">
                 <h4>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
@@ -53,7 +60,56 @@
                 <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
                 <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
             </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/ba2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="conf ">
+                <h1><a id="confciudad">Conf Bs As</a></h1>
+                <div class="texto">
+                <h4>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
+                    y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
+                    esperamos!</h4>
+                </div>
+            </div>
+            <br>
+            <div class="btn_principal">
+                <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
+                <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/ba3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+               <div class="conf ">
+                <h1><a id="confciudad">Conf Bs As</a></h1>
+                <div class="texto">
+                <h4>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
+                    y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
+                    esperamos!</h4>
+                </div>
+            </div>
+            <br>
+            <div class="btn_principal">
+                <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
+                <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
+            </div>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     <div class="container-fluid">
   
         <div class="container_oradores">
@@ -103,7 +159,7 @@
       </div>
       </section>
 <div class="container-fluid">
-   <div class="d-flex justify-content-center bg-dark ms-0">
+   <div class="d-flexjustify-content-center bg-dark ms-0">
    <hr/>
         <div class="row">
             <div class="col-md-6">
@@ -131,29 +187,115 @@
     <h6 style="text-align: center; font-weight: lighter;">CONVIERTETE EN UN</h6>
     <h1 style="text-align: center;"><a id="oradores">ORADOR</a></h1>
     <h6 style="text-align: center; font-weight: normal;">Anotate como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</h6>
-    <div class="container-form">
-        <div class="row">
-        <div class="col-md-6">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-        </div>
-        <div class="col-md-6">
-            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
-        </div>
-        </div>
-        <br>
-        <div class="mb-3">
-       
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <label for="exampleFormControlTextarea1" class="form-label text-secondary">Recuerda incluir un titulo para tu charla</label>
-            
-        </div>
-        <div class="d-grid gap-2">
-            <button type="button" class="btn btn-success">Enviar</button>    
-        </div>
+    
+<!--DESDE AQUI VA LA ACTUALIZACION-->
+<br>
+<div class="container" style="text-align:center;">
+  <div class="abs-center">
+  <div class="row">
+      <div class="col-lg-4 mb-4">
         
- 
+          <div class="card" id="card-descuento" style="max-width: 18rem;">
+            
+              <div class="card-body">
+                <h4 class="card-title">Estudiante</h4>
+                <p class="card-text">Tiene un descuento</p>
+                <h4>80%</h4>
+                <p class="card-text"><small class="text-muted">*Presentar documentacion</small></p>
+              </div>
+            
+         
+          </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+          
+           
+          <div class="card" id="card-descuento" style="max-width: 18rem;">
+             
+              <div class="card-body">
+                <h4 class="card-title">Trainee</h4>
+                <p class="card-text">Tiene un descuento</p>
+                <h4>50%</h4>
+                <p class="card-text"><small class="text-muted">*Presentar documentacion</small></p>
+              
+              </div>
+           
+          
+      </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+          <div class="card" id="card-descuento" style="max-width: 18rem;">
+             
+              <div class="card-body">
+                <h4 class="card-title">Junior</h4>
+                <p class="card-text">Tiene un descuento</p>
+                <h4>15%</h4>
+                <p class="card-text"><small class="text-muted">*Presentar documentacion</small></p>
+              </div>
+            </div>
+      </div>
+</div>
+<h4 class="font-weight-light">VENTA</h4>
+<h2>VALOR DEL TICKET $200</h2>
+<div class="container-form">
+<div class="abs-center">
+  <div class="row">
+  <div class="col-md-6">
+      <input type="text" class="form-control" id="InputName" placeholder="Nombre">
+  </div>
+  <div class="col-md-6">
+      <input type="text" class="form-control" id="InputLastname" placeholder="Apellido">
+  </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col">
+          <input type="text" class="form-control" id="InputMail" placeholder="Correo">
+      </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col-md-6">
+          <label for="InputAmount">Cantidad</label>
+          <input type="text" class="form-control" id="InputAmount">
+      </div>
+      <div class="col-md-6">
+          <label for="CategorySelect">Categoria</label>
+          <select class="form-control" id="CategorySelect">
+              <option selected>Estudiante</option>
+              <option>Trainee</option>
+              <option>Junior</option>
+            </select>
+      </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col">
+         
+      <input type="text" class="form-control" id="OutputResultado" placeholder="Total a Pagar: $" style="border-color: #6AB8FF; color:#6AB8FF; background-color:#CCE5FF ;">
+              
+          
+      </div>
+  </div>
+  <br>
+  <div class="row">
+<div class="d-grid gap-2 col-md-6">
+  <button type="button" id="ButtonDelete" onclick="limpiar()" class="btn btn-success btn-block ">Borrar</button>
+</div>         
+     <div class="d-grid gap-2 col-md-6">
+      <button type="button" id="ButtonSumary" onclick="resumen()" class="btn btn-success btn-block">Resumen</button>
+   
+     </div>
+          
+  </div>
 
-    </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+
+   
 </div>
 </main>
 
@@ -173,8 +315,8 @@
         </footer>
   
 
+        <script src="assets/js/script.js"></script>
+
  
-    
-  <script src="assets/js/bootstrap.js"></script>  
 </body>
 </html>

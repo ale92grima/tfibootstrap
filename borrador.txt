@@ -1,17 +1,23 @@
-   <div class="container-fluid">
-        <img src="/imagenes/ba1.jpg" class="img_portada">   
-        <div class="conf ">
-            <h1><a id="confciudad">Conf Bs As</a></h1>
-            <div class="texto">
-            <h4>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento
-                y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
-                evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te
-                esperamos!</h4>
-            </div>
+ <div class="container-form">
+        <div class="row">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
+        </div>
         </div>
         <br>
-        <div class="btn_principal">
-            <button type="button" class="btn btn-outline-light btn-lg">Quiero ser orador</button>
-            <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
+        <div class="mb-3">
+       
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1" class="form-label text-secondary">Recuerda incluir un titulo para tu charla</label>
+            
         </div>
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-success">Enviar</button>    
+        </div>
+        
+ 
+
     </div>

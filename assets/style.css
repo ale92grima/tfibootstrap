@@ -84,4 +84,14 @@ div.row{
     margin-left: 0px;
     padding-left: 0px;
               
+
+ }
+#card-descuento{
+    border:#6AB8FF 2px solid;
+}
+
+ #card-descuento:hover{
+
+    border: orange 2px solid;
+ 
  }
